@@ -48,12 +48,12 @@ func TestGetGreeting(t *testing.T) {
 		{
 		name:"empty string",
 		input: "",
-		expectedOutput: "Hello World!",
+		expectedOutput: "Hello, World!",
 		}, 
 		{
 			name:"non-empty string",
 			input: "Billy",
-			expectedOutput: "Hello ",
+			expectedOutput: "Hello, Billy!",
 		},
 	}
 	for _, c := range cases {
